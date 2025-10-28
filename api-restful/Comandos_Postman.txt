@@ -1,0 +1,33 @@
+------------POST-----------
+http://127.0.0.1:5000/Restaurante
+---------------------------
+
+Body - raw - JSON
+{
+  "nome": "Cantina da Nonna",
+  "endereco": "Rua das Flores, 123 - Centro",
+  "tipo_cozinha": "Italiana"
+}
+
+
+------------GET-----------
+http://127.0.0.1:5000/Restaurante
+
+http://127.0.0.1:5000/Restaurante/1
+
+---------------------------
+
+------------UPDATE-----------
+http://127.0.0.1:5000/Restaurante/1
+
+-----------------------------
+{
+  "nome": "Cantina da Nonna Gourmet",
+  "endereco": "Rua das Flores, 123 - Centro",
+  "tipo_cozinha": "Italiana Contemporânea"
+}
+
+
+------------DELETE-----------
+DELETE http://127.0.0.1:5000/Restaurante/1
+-----------------------------
